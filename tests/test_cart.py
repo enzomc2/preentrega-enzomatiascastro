@@ -27,10 +27,10 @@ def test_cart(login_in_driver):
         cart_items = driver.find_elements(By.CLASS_NAME, "cart_item")
         assert len(cart_items) == 1, "El producto no se añadió correctamente al carrito"
 
-        print("✅ Test de carrito completado exitosamente")
+        print("Test de carrito completado exitosamente")
 
     except Exception as e:
-        print(f"❌ Error en el test_cart: {e}")
+        print(f"Error en el test_cart: {e}")
         raise
 
     finally:

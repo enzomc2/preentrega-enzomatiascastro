@@ -23,3 +23,15 @@ Para ejecutar de manera individual:
 pytest tests/test_login.py -v
 pytest tests/test_inventory.py -v
 pytest tests/test_cart.py -v 
+
+PREENTREGA-ENZOMATIASCASTRO/
+│
+├── conftest.py
+├── README.md
+├── run_test.py
+├── utils.py
+│
+└── tests/
+    ├── test_login.py
+    ├── test_inventory.py
+    └── test_cart.py
